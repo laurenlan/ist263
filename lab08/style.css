@@ -1,0 +1,22 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #F6E7D8}
+h1, h2 {color: #f68989;}
+.evenrow{background-color:lightseagreen}
+h1 {font-size: 3em;}
+h2{font-size: 1em}
+p {font-family: 'Times New Roman', Times, serif;}
+ p, ul, td, th { color: navy}
+ a {color: #C65D7B}
+ p {color: #874356}
+ nav {background-color: #ffffff}
+ nav {padding: 10px; margin-bottom: 30px;}
+ nav a {color: #2FA4FF}
+ nav a:hover {background-color: #42C2FF}
+ nav {margin-bottom: 30px} 
+.right {float: right; }
+.row1, .row2 {display: flex; padding: 12px; margin: 12px;}
+ .row1 {background-color: #B7CADB; border-radius: 2em;}
+.row2 {background-color: #B7CADB; border-radius: 2em;}
+.formcol {flex:2; order:1; padding: 6px; margin: 25px;}
+ .adresscol {flex:1; order:1;}
+.emailcol {flex:1; order:2; margin: 50px;}
+.gmapcol {flex:2; order:1; padding: 6px; margin: 40px;}
