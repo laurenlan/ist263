@@ -12,13 +12,8 @@ p {font-family: 'Times New Roman', Times, serif;}
  nav a {color: #2FA4FF}
  nav a:hover {background-color: #42C2FF}
  nav {margin-bottom: 30px} 
-.copy {float: left;}
-.quote {float: right;}
+.header {display:flex; justify-content: center;}
+.flexbox1 {display:flex; flex: 3; justify-content: space-between; margin-top: 45px;}
+.flexbox2 {display:flex; margin: 20px; padding: 20px; justify-content: space-around;}
+.Otherskills {background-color:#F6E7D8 ; border-radius: 1em;margin: 0 auto; flex: 2;padding:10px;}
 
-.row1, .row2 {display: flex; padding: 10px; margin: 10px;}
-.row1 {background-color: #ddb0eb; border-radius: 2em;}
-.row2 {background-color: #ddb0eb; border-radius: 2em;}
-.adresscol {flex:1; order:1;}
-.emailcol {flex:1; order:2; margin:50px;}
-.gmapcol {flex:3; order:2; margin: 50px;}
-.formcol {flex:2; order:2; padding: 6px; margin: 35px;}
