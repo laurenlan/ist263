@@ -1,0 +1,26 @@
+body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #F6E7D8}
+h1, h2 {color: #f68989;}
+.evenrow{background-color:lightseagreen}
+h1 {font-size: 3em;}
+h2{font-size: 1em}
+p {font-family: 'Times New Roman', Times, serif;}
+ p, ul, td, th { color: navy}
+ a {color: #C65D7B}
+ p {color: #874356}
+ nav {background-color: #ffffff}
+ nav {padding: 10px; margin-bottom: 30px;}
+ nav a {color: #2FA4FF}
+ nav a:hover {background-color: #42C2FF}
+ nav {margin-bottom: 30px} 
+.header {display:flex; justify-content: center;}
+.flexbox1 {display:flex; flex: 3; justify-content: space-between; margin-top: 45px;}
+.flexbox2 {display:flex; margin: 20px; padding: 20px; justify-content: space-around;}
+.Otherskills {background-color:#F6E7D8 ; border-radius: 1em;margin: 0 auto; flex: 2;padding:10px;}
+.bannerbio {max-width: 100%;}
+@media only screen and (max-width: 700px) { 
+    nav a {
+        display: block; 
+        padding: 8px; 
+        width: 100%;} 
+    span {display: none;}
+    }
