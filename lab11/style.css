@@ -1,12 +1,12 @@
 body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #F6E7D8}
-h1, h2 {color: #f68989;}
-.evenrow{background-color:lightseagreen}
+h1, h2 {color: purple;}
+.evenrow{background-color:rgb(6, 41, 39)}
 h1 {font-size: 3em;}
 h2{font-size: 1em}
 p {font-family: 'Times New Roman', Times, serif;}
  p, ul, td, th { color: navy}
- a {color: #C65D7B}
- p {color: #874356}
+ a {color: #874356}
+ p {color: #ffffff}
  nav {background-color: #ffffff}
  nav {padding: 10px; margin-bottom: 30px;}
  nav a {color: #2FA4FF}
