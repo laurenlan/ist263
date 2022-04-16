@@ -6,8 +6,8 @@ h2{font-size: 1em}
 p {font-family: 'Times New Roman', Times, serif;}
  p, ul, td, th { color: navy}
  a {color: #874356}
- p {color: #ffffff}
- nav {background-color: #ffffff}
+ p {color: black}
+ nav {background-color: black}
  nav {padding: 10px; margin-bottom: 30px;}
  nav a {color: #2FA4FF}
  nav a:hover {background-color: #42C2FF}
