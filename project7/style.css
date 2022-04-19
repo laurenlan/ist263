@@ -1,0 +1,39 @@
+body {font-family:'Courier New', Courier, monospace; background-color: white}
+h1 {color: red;}
+h1 {font-size: 4.5em;}
+h2 {color: black}
+h2{font-size: 1.5em}
+h3 {font-size: 1.5em}
+h3 {color: red}
+h4 {font-size: 1.5em}
+h4 {color: red}
+p {font-family: 'Courier New', Courier, monospace;}
+ p, ul, td, th { color: red}
+ a {color: red}
+ p {color: black}
+ nav {background-color: black}
+ nav {padding: 10px; margin-bottom: 30px;}
+ nav a {color: red}
+ nav a:hover {background-color: white}
+ nav {margin-bottom: 30px} 
+.header {display:flex; justify-content: center;}
+.flexbox1 {display:flex; flex: 3; justify-content: space-between; margin-top: 45px;}
+.flexbox2 {display:flex; margin: 20px; padding: 20px; justify-content: space-around;}
+.ihatethisfont {display:flex; margin: 15px; padding: 20px; justify-content: space-around;}
+@media only screen and (max-width: 700px) { 
+    nav a {
+        display: block; 
+        padding: 8px; 
+        width: 100%;} 
+    span {display: none;}
+    }
+
+    .img1 {float: left; margin-right: 10px;}
+    .clear {clear: both;}
+
+    .part2 {display: flex;}
+    .part2 article {padding: 20px;}
+    .article1, .article2, .article3 {margin: 10px}
+    .article1 {flex: 2; order: 3; background-color: red; border-radius: 1em;}
+    .article2 {flex: 1; order: 2;}
+    .article3 {flex: 1; order: 1;}
