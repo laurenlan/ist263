@@ -1,5 +1,5 @@
-body {font-family:'Courier New', Courier, monospace; background-color: white}
-h1 {color: red;}
+body {font-family:'Courier New', Courier, monospace; background-color: red}
+h1 {color: white;}
 h1 {font-size: 4.5em;}
 h2 {color: black}
 h2{font-size: 1.5em}
@@ -10,7 +10,7 @@ h4 {color: red}
 p {font-family: 'Courier New', Courier, monospace;}
  p, ul, td, th { color: red}
  a {color: red}
- p {color: black}
+ p {color: white}
  nav {background-color: black}
  nav {padding: 10px; margin-bottom: 30px;}
  nav a {color: red}
