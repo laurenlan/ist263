@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <script>
+        function right () {
+            document.getElementById("rightanswer").innerHTMl = "correct";
+            document.getElementById("back").style.background = 'green'
+        }
+        function Incorrect (){
+            document.getElementById("wronganswer").innerHTML = "incorrect";
+
+        }
+
+    </script>
+</head>
+<body id="back">
+    <p>People can be not see certain colors</p>
+    <p id="rightanswer" onlick="right();">True</p>
+    <p id="wronganswer" onlick="wrong();">False</p>
+    
+</body>
+</html>
